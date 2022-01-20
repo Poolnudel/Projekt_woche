@@ -53,6 +53,7 @@ void loop(){
     RGB_color(255, 0, 0); // Red
     myservo.writeMicroseconds(500);
     eingabe = "";
+    delay(1000);
     RGB_color(0, 0, 0); // 0
   }
   if (eingabe.indexOf("123") >= 0) {
